@@ -50,7 +50,7 @@ function buildRankingChart(type = "platforms") {
     publishers: {
       rows: DATA.topPublishers.slice(0, 10),
       labelKey: "publisher",
-      title: "Ventas globales por publisher",
+      title: "Ventas globales por distribuidoras",
       datasetLabel: "Millones vendidos",
       color: palette.purple
     }
